@@ -36,18 +36,18 @@ notification:
   batch_send_interval: 3 # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━━━━" # feishu 消息分割线
 # ▼▼▼ 请手动添加这部分 ▼▼▼
-  push:
-    dingtalk:
-      enabled: true  # 开启钉钉
-    feishu:
-      enabled: false # 关闭飞书
-    wework:
-      enabled: false # 关闭企业微信
-    telegram:
-      enabled: false # 关闭 Telegram
-    email:
-      enabled: false # 关闭邮件
-  # ▲▲▲ 添加结束 ▲▲▲
+push:
+  dingtalk:
+    enabled: true  # 开启钉钉
+  feishu:
+    enabled: false # 关闭飞书
+  wework:
+    enabled: false # 关闭企业微信
+  telegram:
+    enabled: false # 关闭 Telegram
+  email:
+    enabled: false # 关闭邮件
+# ▲▲▲ 添加结束 ▲▲▲
   # 🕐 推送时间窗口控制（可选功能）
   # 用途：限制推送的时间范围，避免非工作时间打扰
   # 适用场景：
